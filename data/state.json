@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:01:00Z",
+  "generatedAt": "2026-08-25T16:01:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -8,7 +8,7 @@
   "focus": {
     "title": "Finish the Nick Reverse OS launch plan",
     "status": "active",
-    "nextAction": "Ask Nick for one non-sensitive WhatsApp priority/task, then run the documented live dashboard proof.",
+    "nextAction": "Run the live WhatsApp-to-dashboard proof when Nick sends one non-sensitive task; Supabase credential refresh checklist is ready for the next unblock.",
     "priority": "urgent"
   },
   "today": [
@@ -69,7 +69,7 @@
       "priority": "high",
       "status": "next",
       "ownerLabel": "Lara",
-      "nextAction": "Re-check database access after credentials are refreshed; keep calendar, email approvals, and n8n staged for after launch."
+      "nextAction": "Supabase credential refresh checklist is ready; calendar, email approvals, and n8n stay staged for after launch."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -83,7 +83,7 @@
       "priority": "high",
       "status": "blocked",
       "ownerLabel": "Nick + Lara",
-      "nextAction": "Refresh or provide working database credentials; current connection is rejected."
+      "nextAction": "Use docs/supabase-credential-refresh.md to refresh the database URI, then Lara will re-run npm run db:verify."
     },
     {
       "title": "Contact Chris73 about Room 22 guest list",
@@ -105,6 +105,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Supabase credential refresh checklist prepared",
+      "status": "done",
+      "summary": "Created the exact non-secret checklist needed to refresh database credentials and clear the Supabase blocker safely."
+    },
     {
       "title": "WhatsApp dashboard test checklist prepared",
       "status": "done",
