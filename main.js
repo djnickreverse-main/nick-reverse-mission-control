@@ -1,4 +1,4 @@
-const stateUrl = new URL("./data/sample-state.json", import.meta.url);
+const stateUrl = new URL("./data/state.json", import.meta.url);
 
 const statusTone = {
   urgent: "urgent",
@@ -114,7 +114,7 @@ function renderDashboard(state) {
 }
 
 async function init() {
-  const response = await fetch(stateUrl);
+  const response = await fetch(new URL(stateUrl.href + "?v=" + Date.now()));
   if (!response.ok) {
     throw new Error(`Mission Control state failed to load: ${response.status}`);
   }

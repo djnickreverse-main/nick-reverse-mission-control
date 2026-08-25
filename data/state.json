@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-08-25T07:15:02.796Z",
+  "source": "Lara / OpenClaw",
+  "profile": {
+    "displayName": "Nick Reverse",
+    "timezone": "Australia/Sydney"
+  },
+  "focus": {
+    "title": "Connect Lara to live Mission Control",
+    "status": "active",
+    "nextAction": "Send Lara a WhatsApp task and verify it appears on this dashboard.",
+    "priority": "urgent"
+  },
+  "today": [
+    {
+      "time": "Done",
+      "title": "Mission Control published",
+      "type": "deployment",
+      "status": "done"
+    },
+    {
+      "time": "Now",
+      "title": "Live Lara task sync",
+      "type": "automation",
+      "status": "active"
+    }
+  ],
+  "priorities": [
+    {
+      "title": "Connect Lara to live Mission Control",
+      "priority": "urgent",
+      "status": "active",
+      "ownerLabel": "Lara",
+      "nextAction": "Publish real task updates from OpenClaw to the dashboard."
+    },
+    {
+      "title": "Test WhatsApp-to-dashboard update",
+      "priority": "high",
+      "status": "next",
+      "ownerLabel": "Nick",
+      "nextAction": "Send Lara a new priority on WhatsApp and confirm it appears."
+    }
+  ],
+  "approvals": [],
+  "projects": [
+    {
+      "name": "Nick Reverse OS",
+      "area": "business",
+      "priority": "urgent",
+      "status": "active",
+      "objective": "Create a working command center for Nick's music career and business.",
+      "nextAction": "Verify live updates from Lara."
+    }
+  ],
+  "laraActivity": [
+    {
+      "title": "Mission Control published",
+      "status": "done",
+      "summary": "Dashboard is live on GitHub Pages over HTTPS."
+    },
+    {
+      "title": "Secure publishing connected",
+      "status": "done",
+      "summary": "Repository-specific write access configured without a personal GitHub token."
+    },
+    {
+      "title": "Live task sync enabled",
+      "status": "active",
+      "summary": "Lara can now update the public dashboard state after WhatsApp task changes."
+    }
+  ]
+}
