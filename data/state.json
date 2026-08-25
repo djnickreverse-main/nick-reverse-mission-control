@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:20:56.204Z",
+  "generatedAt": "2026-08-25T07:22:23.549Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -61,7 +61,7 @@
     {
       "title": "Secure publishing connected",
       "status": "done",
-      "summary": "Repository-specific write access configured without a personal GitHub token."
+      "summary": "Repository-specific publish access is configured."
     },
     {
       "title": "Live task sync enabled",
