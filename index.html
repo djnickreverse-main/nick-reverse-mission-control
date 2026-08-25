@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nick Reverse OS Mission Control</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Mission Control navigation">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">NR</div>
+          <div>
+            <p class="eyebrow">Nick Reverse OS</p>
+            <h1>Mission Control</h1>
+          </div>
+        </div>
+        <nav>
+          <a href="#today" aria-current="page">Today</a>
+          <a href="#priorities">Priorities</a>
+          <a href="#approvals">Approvals</a>
+          <a href="#projects">Projects</a>
+          <a href="#activity">Lara</a>
+        </nav>
+      </aside>
+
+      <main>
+        <section class="focus-band" aria-labelledby="focus-title">
+          <div>
+            <p class="eyebrow">Highest Priority</p>
+            <h2 id="focus-title">Loading Mission Control...</h2>
+            <p id="focus-next-action" class="focus-copy"></p>
+          </div>
+          <div class="status-panel" aria-label="System status">
+            <span id="focus-priority" class="pill urgent">urgent</span>
+            <span id="generated-at" class="timestamp"></span>
+          </div>
+        </section>
+
+        <section id="today" class="section-block" aria-labelledby="today-title">
+          <div class="section-heading">
+            <h2 id="today-title">Today</h2>
+            <span id="today-count" class="count-chip">0</span>
+          </div>
+          <div id="today-list" class="timeline"></div>
+        </section>
+
+        <section id="priorities" class="section-block" aria-labelledby="priorities-title">
+          <div class="section-heading">
+            <h2 id="priorities-title">Top Priorities</h2>
+            <span id="priority-count" class="count-chip">0</span>
+          </div>
+          <div id="priority-list" class="card-grid"></div>
+        </section>
+
+        <section id="approvals" class="section-block" aria-labelledby="approvals-title">
+          <div class="section-heading">
+            <h2 id="approvals-title">Waiting For Approval</h2>
+            <span id="approval-count" class="count-chip">0</span>
+          </div>
+          <div id="approval-list" class="stack"></div>
+        </section>
+
+        <section id="projects" class="section-block" aria-labelledby="projects-title">
+          <div class="section-heading">
+            <h2 id="projects-title">Active Projects</h2>
+            <span id="project-count" class="count-chip">0</span>
+          </div>
+          <div id="project-list" class="stack"></div>
+        </section>
+
+        <section id="activity" class="section-block" aria-labelledby="activity-title">
+          <div class="section-heading">
+            <h2 id="activity-title">Lara Activity</h2>
+            <span id="activity-count" class="count-chip">0</span>
+          </div>
+          <div id="activity-list" class="stack"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
