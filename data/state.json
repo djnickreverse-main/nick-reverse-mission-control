@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:29:46.803Z",
+  "generatedAt": "2026-08-25T07:33:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -8,7 +8,7 @@
   "focus": {
     "title": "Finish the Nick Reverse OS launch plan",
     "status": "active",
-    "nextAction": "Define the launch scope: what ships first, what waits, and what success looks like.",
+    "nextAction": "Run one live WhatsApp-to-dashboard test with a new priority from Nick.",
     "priority": "urgent"
   },
   "today": [
@@ -19,67 +19,65 @@
       "status": "done"
     },
     {
+      "time": "Done",
+      "title": "Launch scope defined",
+      "type": "planning",
+      "status": "done"
+    },
+    {
+      "time": "Done",
+      "title": "Launch task sequence drafted",
+      "type": "planning",
+      "status": "done"
+    },
+    {
       "time": "Now",
-      "title": "Define launch scope",
-      "type": "planning",
-      "status": "active"
-    },
-    {
-      "time": "Next",
-      "title": "Sequence the launch task list",
-      "type": "planning",
-      "status": "next"
-    },
-    {
-      "time": "Next",
-      "title": "Verify launch blockers",
+      "title": "Test WhatsApp-to-dashboard update",
       "type": "systems",
       "status": "next"
+    },
+    {
+      "time": "Next",
+      "title": "Refresh Supabase credentials",
+      "type": "systems",
+      "status": "blocked"
     }
   ],
   "priorities": [
     {
       "title": "Finish the Nick Reverse OS launch plan",
       "priority": "urgent",
-      "status": "active"
-      ,
+      "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Define launch scope: first ship, later ship, and success criteria."
+      "nextAction": "Use the launch scope and sequenced task list now drafted in docs/launch-plan.md."
     },
     {
-      "title": "Convert launch plan into next actions",
+      "title": "Test WhatsApp-to-dashboard update",
       "priority": "high",
       "status": "next",
-      "ownerLabel": "Lara",
-      "nextAction": "Create a sequenced task list with owners, blockers, and approvals."
+      "ownerLabel": "Nick + Lara",
+      "nextAction": "Nick sends Lara one new priority/task on WhatsApp; Lara updates Mission Control and verifies it appears."
     },
     {
       "title": "Verify launch blockers",
       "priority": "high",
       "status": "next",
       "ownerLabel": "Lara",
-      "nextAction": "Check database connection, repo publishing, calendar, email approvals, and automation timing."
-    },
-    {
-      "title": "Test my live Mission Control",
-      "priority": "medium",
-      "status": "done",
-      "ownerLabel": "Lara",
-      "nextAction": "Live update was published and verified."
+      "nextAction": "Re-check Supabase after credentials are refreshed; keep calendar, email approvals, and n8n staged for after launch."
     },
     {
       "title": "Connect Lara to live Mission Control",
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Publish real task updates to the dashboard."
+      "nextAction": "Continue publishing non-sensitive task updates to the dashboard."
     },
     {
-      "title": "Test WhatsApp-to-dashboard update",
+      "title": "Restore Supabase connection",
       "priority": "high",
-      "status": "next",
-      "ownerLabel": "Nick",
-      "nextAction": "Send Lara a new priority on WhatsApp and confirm it appears."
+      "status": "blocked",
+      "ownerLabel": "Nick + Lara",
+      "nextAction": "Refresh or provide working Supabase database credentials; current pooler tenant/user is rejected."
     }
   ],
   "approvals": [],
@@ -90,10 +88,25 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center for Nick's music career and business.",
-      "nextAction": "Finish the launch plan and turn it into an executable sequence."
+      "nextAction": "Run the live WhatsApp-to-dashboard test and then resolve Supabase credentials."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Launch scope defined",
+      "status": "done",
+      "summary": "Created the first launch plan: what ships now, what waits, and success criteria."
+    },
+    {
+      "title": "Launch task sequence drafted",
+      "status": "done",
+      "summary": "Converted the plan into owner/status/next-action tasks with blockers visible."
+    },
+    {
+      "title": "Mission Control live state refreshed",
+      "status": "active",
+      "summary": "Dashboard now points to the live WhatsApp-to-dashboard test as the next proof step."
+    },
     {
       "title": "Launch plan priority saved",
       "status": "done",
@@ -118,11 +131,6 @@
       "title": "Secure publishing connected",
       "status": "done",
       "summary": "Repository-specific publish access is configured."
-    },
-    {
-      "title": "Live task sync enabled",
-      "status": "active",
-      "summary": "Lara can now update the public dashboard state after WhatsApp task changes."
     }
   ]
 }
