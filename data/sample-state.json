@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-08-25T06:45:00Z",
+  "profile": {
+    "displayName": "Nick Reverse",
+    "timezone": "UTC"
+  },
+  "focus": {
+    "title": "Launch Nick Reverse OS Mission Control",
+    "status": "active",
+    "nextAction": "Turn the first dashboard shell into a verified working app.",
+    "priority": "urgent"
+  },
+  "today": [
+    {
+      "time": "Now",
+      "title": "Mission Control build",
+      "type": "project",
+      "status": "active"
+    },
+    {
+      "time": "Waiting",
+      "title": "Repository publish access",
+      "type": "blocker",
+      "status": "blocked"
+    },
+    {
+      "time": "Waiting",
+      "title": "Database connection refresh",
+      "type": "blocker",
+      "status": "blocked"
+    }
+  ],
+  "priorities": [
+    {
+      "title": "Launch Nick Reverse OS Mission Control",
+      "priority": "urgent",
+      "status": "next",
+      "ownerLabel": "Lara",
+      "nextAction": "Create the first usable dashboard shell."
+    },
+    {
+      "title": "Restore repository publish path",
+      "priority": "high",
+      "status": "blocked",
+      "ownerLabel": "Nick",
+      "nextAction": "Confirm publishing access for the project repository."
+    },
+    {
+      "title": "Refresh database connection",
+      "priority": "high",
+      "status": "blocked",
+      "ownerLabel": "Nick",
+      "nextAction": "Confirm the live database connection details privately."
+    }
+  ],
+  "approvals": [
+    {
+      "title": "External integrations",
+      "request": "Approval needed before connecting Google Calendar, Gmail, or n8n.",
+      "status": "pending"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nick Reverse OS",
+      "area": "business",
+      "priority": "urgent",
+      "status": "active",
+      "objective": "Create a working command center for Nick's music career and business.",
+      "nextAction": "Ship the first Mission Control dashboard."
+    }
+  ],
+  "laraActivity": [
+    {
+      "title": "Workspace reviewed",
+      "status": "done",
+      "summary": "Found schema, roadmap, and empty Mission Control app folder."
+    },
+    {
+      "title": "Mission Control scaffold",
+      "status": "active",
+      "summary": "Building a static first dashboard that can later connect to live data."
+    }
+  ]
+}
