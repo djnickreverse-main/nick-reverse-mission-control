@@ -38,7 +38,7 @@
     },
     {
       "time": "Next",
-      "title": "Refresh Supabase credentials",
+      "title": "Refresh database credentials",
       "type": "systems",
       "status": "blocked"
     },
@@ -69,7 +69,7 @@
       "priority": "high",
       "status": "next",
       "ownerLabel": "Lara",
-      "nextAction": "Re-check Supabase after credentials are refreshed; keep calendar, email approvals, and n8n staged for after launch."
+      "nextAction": "Re-check database access after credentials are refreshed; keep calendar, email approvals, and n8n staged for after launch."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -79,11 +79,11 @@
       "nextAction": "Continue publishing non-sensitive task updates to the dashboard."
     },
     {
-      "title": "Restore Supabase connection",
+      "title": "Restore database connection",
       "priority": "high",
       "status": "blocked",
       "ownerLabel": "Nick + Lara",
-      "nextAction": "Refresh or provide working Supabase database credentials; current pooler tenant/user is rejected."
+      "nextAction": "Refresh or provide working database credentials; current connection is rejected."
     },
     {
       "title": "Contact Chris73 about Room 22 guest list",
@@ -101,7 +101,7 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center for Nick's music career and business.",
-      "nextAction": "Run the live WhatsApp-to-dashboard test and then resolve Supabase credentials."
+      "nextAction": "Run the live WhatsApp-to-dashboard test and then resolve database credentials."
     }
   ],
   "laraActivity": [
