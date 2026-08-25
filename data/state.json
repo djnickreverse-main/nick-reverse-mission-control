@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T07:22:23.549Z",
+  "generatedAt": "2026-08-25T07:24:21.712Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Connect Lara to live Mission Control",
+    "title": "Test my live Mission Control",
     "status": "active",
-    "nextAction": "Send Lara a WhatsApp task and verify it appears on this dashboard.",
+    "nextAction": "Verify this priority appears on the public HTTPS dashboard.",
     "priority": "urgent"
   },
   "today": [
@@ -20,15 +20,22 @@
     },
     {
       "time": "Now",
-      "title": "Live Lara task sync",
+      "title": "Test my live Mission Control",
       "type": "automation",
       "status": "active"
     }
   ],
   "priorities": [
     {
-      "title": "Connect Lara to live Mission Control",
+      "title": "Test my live Mission Control",
       "priority": "urgent",
+      "status": "active",
+      "ownerLabel": "Lara",
+      "nextAction": "Publish this priority and verify the live dashboard reflects it."
+    },
+    {
+      "title": "Connect Lara to live Mission Control",
+      "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
       "nextAction": "Publish real task updates to the dashboard."
@@ -49,10 +56,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center for Nick's music career and business.",
-      "nextAction": "Verify live updates from Lara."
+      "nextAction": "Verify the live Mission Control update from WhatsApp."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Highest priority updated",
+      "status": "done",
+      "summary": "Set Test my live Mission Control as the current focus."
+    },
     {
       "title": "Mission Control published",
       "status": "done",
