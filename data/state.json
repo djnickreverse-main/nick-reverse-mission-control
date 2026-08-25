@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:33:00.000Z",
+  "generatedAt": "2026-08-25T08:02:27Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -41,6 +41,12 @@
       "title": "Refresh Supabase credentials",
       "type": "systems",
       "status": "blocked"
+    },
+    {
+      "time": "Fri 5 PM",
+      "title": "Contact Chris73 about Room 22 guest list",
+      "type": "reminder",
+      "status": "scheduled"
     }
   ],
   "priorities": [
@@ -78,6 +84,13 @@
       "status": "blocked",
       "ownerLabel": "Nick + Lara",
       "nextAction": "Refresh or provide working Supabase database credentials; current pooler tenant/user is rejected."
+    },
+    {
+      "title": "Contact Chris73 about Room 22 guest list",
+      "priority": "medium",
+      "status": "scheduled",
+      "ownerLabel": "Nick",
+      "nextAction": "Reminder scheduled for Friday around 5 PM to organise Saturday's Room 22 guest list."
     }
   ],
   "approvals": [],
@@ -92,6 +105,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Reminder scheduled",
+      "status": "done",
+      "summary": "Friday 5 PM reminder set for Nick to contact Chris73 about Saturday's Room 22 guest list."
+    },
     {
       "title": "Launch scope defined",
       "status": "done",
