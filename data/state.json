@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T07:15:02.796Z",
-  "source": "Lara / OpenClaw",
+  "generatedAt": "2026-08-25T07:20:56.204Z",
+  "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
@@ -31,7 +31,7 @@
       "priority": "urgent",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Publish real task updates from OpenClaw to the dashboard."
+      "nextAction": "Publish real task updates to the dashboard."
     },
     {
       "title": "Test WhatsApp-to-dashboard update",
