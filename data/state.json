@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T08:02:27Z",
+  "generatedAt": "2026-08-25T13:01:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -8,7 +8,7 @@
   "focus": {
     "title": "Finish the Nick Reverse OS launch plan",
     "status": "active",
-    "nextAction": "Run one live WhatsApp-to-dashboard test with a new priority from Nick.",
+    "nextAction": "Ask Nick for one non-sensitive WhatsApp priority/task, then run the documented live dashboard proof.",
     "priority": "urgent"
   },
   "today": [
@@ -62,7 +62,7 @@
       "priority": "high",
       "status": "next",
       "ownerLabel": "Nick + Lara",
-      "nextAction": "Nick sends Lara one new priority/task on WhatsApp; Lara updates Mission Control and verifies it appears."
+      "nextAction": "Nick sends Lara one new non-sensitive priority/task on WhatsApp; Lara follows docs/whatsapp-dashboard-test.md and verifies it appears publicly."
     },
     {
       "title": "Verify launch blockers",
@@ -105,6 +105,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "WhatsApp dashboard test checklist prepared",
+      "status": "done",
+      "summary": "Prepared the exact safe acceptance checklist for the first live WhatsApp-to-Mission-Control proof."
+    },
     {
       "title": "Reminder scheduled",
       "status": "done",
