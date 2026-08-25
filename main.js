@@ -127,3 +127,4 @@ init().catch((error) => {
     error.message
   )}</p></main>`;
 });
+setInterval(init, 60000);
