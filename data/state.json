@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T07:24:21.712Z",
+  "generatedAt": "2026-08-25T07:29:46.803Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Test my live Mission Control",
+    "title": "Finish the Nick Reverse OS launch plan",
     "status": "active",
-    "nextAction": "Verify this priority appears on the public HTTPS dashboard.",
+    "nextAction": "Define the launch scope: what ships first, what waits, and what success looks like.",
     "priority": "urgent"
   },
   "today": [
@@ -20,18 +20,52 @@
     },
     {
       "time": "Now",
-      "title": "Test my live Mission Control",
-      "type": "automation",
+      "title": "Define launch scope",
+      "type": "planning",
       "status": "active"
+    },
+    {
+      "time": "Next",
+      "title": "Sequence the launch task list",
+      "type": "planning",
+      "status": "next"
+    },
+    {
+      "time": "Next",
+      "title": "Verify launch blockers",
+      "type": "systems",
+      "status": "next"
     }
   ],
   "priorities": [
     {
-      "title": "Test my live Mission Control",
+      "title": "Finish the Nick Reverse OS launch plan",
       "priority": "urgent",
-      "status": "active",
+      "status": "active"
+      ,
       "ownerLabel": "Lara",
-      "nextAction": "Publish this priority and verify the live dashboard reflects it."
+      "nextAction": "Define launch scope: first ship, later ship, and success criteria."
+    },
+    {
+      "title": "Convert launch plan into next actions",
+      "priority": "high",
+      "status": "next",
+      "ownerLabel": "Lara",
+      "nextAction": "Create a sequenced task list with owners, blockers, and approvals."
+    },
+    {
+      "title": "Verify launch blockers",
+      "priority": "high",
+      "status": "next",
+      "ownerLabel": "Lara",
+      "nextAction": "Check database connection, repo publishing, calendar, email approvals, and automation timing."
+    },
+    {
+      "title": "Test my live Mission Control",
+      "priority": "medium",
+      "status": "done",
+      "ownerLabel": "Lara",
+      "nextAction": "Live update was published and verified."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -56,10 +90,20 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center for Nick's music career and business.",
-      "nextAction": "Verify the live Mission Control update from WhatsApp."
+      "nextAction": "Finish the launch plan and turn it into an executable sequence."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Launch plan priority saved",
+      "status": "done",
+      "summary": "Set finishing the Nick Reverse OS launch plan as the current focus."
+    },
+    {
+      "title": "Next three actions saved",
+      "status": "done",
+      "summary": "Defined scope, sequence the task list, and verify launch blockers."
+    },
     {
       "title": "Highest priority updated",
       "status": "done",
