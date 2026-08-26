@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:31:00Z",
+  "generatedAt": "2026-08-26T12:41:18Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -8,7 +8,7 @@
   "focus": {
     "title": "Finish the Nick Reverse OS launch plan",
     "status": "active",
-    "nextAction": "Run the live WhatsApp-to-dashboard proof when Nick sends one non-sensitive task; the first launch brief and supporting runbooks are ready.",
+    "nextAction": "Follow the Thursday day calendar: launch plan review, WhatsApp-to-dashboard proof, Supabase credential refresh, and music/admin reset.",
     "priority": "urgent"
   },
   "today": [
@@ -31,16 +31,46 @@
       "status": "done"
     },
     {
-      "time": "Now",
+      "time": "Thu 9:00 AM",
+      "title": "Daily brief and top three priorities",
+      "type": "planning",
+      "status": "next"
+    },
+    {
+      "time": "Thu 9:30 AM",
+      "title": "Finish launch plan review",
+      "type": "planning",
+      "status": "next"
+    },
+    {
+      "time": "Thu 10:30 AM",
       "title": "Test WhatsApp-to-dashboard update",
       "type": "systems",
       "status": "next"
     },
     {
-      "time": "Next",
+      "time": "Thu 11:15 AM",
       "title": "Refresh database credentials",
       "type": "systems",
       "status": "blocked"
+    },
+    {
+      "time": "Thu 1:30 PM",
+      "title": "Mission Control build block",
+      "type": "systems",
+      "status": "next"
+    },
+    {
+      "time": "Thu 3:30 PM",
+      "title": "Music or content focus block",
+      "type": "creative",
+      "status": "next"
+    },
+    {
+      "time": "Thu 5:00 PM",
+      "title": "Email/admin and tomorrow reset",
+      "type": "admin",
+      "status": "next"
     },
     {
       "time": "Fri 5 PM",
@@ -105,6 +135,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Thursday day calendar organised",
+      "status": "done",
+      "summary": "Structured tomorrow around Mission Control launch progress, the live WhatsApp proof, the Supabase blocker, and a protected creative/admin reset."
+    },
     {
       "title": "First launch brief prepared",
       "status": "done",
