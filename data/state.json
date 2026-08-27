@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-27T03:20:00Z",
+  "generatedAt": "2026-08-27T03:31:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Finish the Nick Reverse OS launch plan",
-    "status": "active",
-    "nextAction": "WhatsApp audio understanding is confirmed; next action is finish the launch plan review, then refresh Supabase credentials.",
-    "priority": "urgent"
+    "title": "Restore database connection",
+    "status": "blocked",
+    "nextAction": "WhatsApp audio understanding and the launch-plan review are complete; next action is refresh the Supabase database URI, then Lara will re-run npm run db:verify.",
+    "priority": "high"
   },
   "today": [
     {
@@ -37,10 +37,10 @@
       "status": "done"
     },
     {
-      "time": "Overdue",
+      "time": "Done",
       "title": "Finish launch plan review",
       "type": "planning",
-      "status": "overdue"
+      "status": "done"
     },
     {
       "time": "Done",
@@ -49,7 +49,7 @@
       "status": "done"
     },
     {
-      "time": "Thu 11:15 AM",
+      "time": "Next",
       "title": "Refresh database credentials",
       "type": "systems",
       "status": "blocked"
@@ -83,9 +83,9 @@
     {
       "title": "Finish the Nick Reverse OS launch plan",
       "priority": "urgent",
-      "status": "active",
+      "status": "done",
       "ownerLabel": "Lara",
-      "nextAction": "Use the launch scope and sequenced task list now drafted in docs/launch-plan.md."
+      "nextAction": "Launch scope, sequence, readiness checklist, operations runbook, and first-launch proof status are reviewed and current."
     },
     {
       "title": "Test WhatsApp-to-dashboard update",
@@ -97,16 +97,16 @@
     {
       "title": "Verify launch blockers",
       "priority": "high",
-      "status": "next",
+      "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Supabase credential refresh checklist and launch operations runbook are ready; calendar, email approvals, and n8n stay staged for after launch."
+      "nextAction": "Supabase credential refresh is the next live blocker; calendar, email approvals, and n8n stay staged for after launch."
     },
     {
       "title": "Connect Lara to live Mission Control",
       "priority": "high",
-      "status": "active",
+      "status": "done",
       "ownerLabel": "Lara",
-      "nextAction": "Continue publishing non-sensitive task updates to the dashboard."
+      "nextAction": "WhatsApp audio was received, understood, represented safely, published, and verified on the dashboard."
     },
     {
       "title": "Restore database connection",
@@ -131,10 +131,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center for Nick's music career and business.",
-      "nextAction": "Finish launch plan review, then resolve database credentials."
+      "nextAction": "Refresh database credentials, then re-run Supabase verification."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Launch plan review completed",
+      "status": "done",
+      "summary": "Reviewed the launch plan, readiness checklist, first-launch brief, and WhatsApp proof status; Mission Control now points to Supabase credentials as the next blocker."
+    },
     {
       "title": "WhatsApp audio understanding confirmed",
       "status": "done",
