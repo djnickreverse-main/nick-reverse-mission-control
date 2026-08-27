@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T18:06:00Z",
+  "generatedAt": "2026-08-27T18:35:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -16,6 +16,12 @@
       "time": "Done",
       "title": "Google Calendar read access verified",
       "type": "integration",
+      "status": "done"
+    },
+    {
+      "time": "Done",
+      "title": "Schedule-grounded Organization brief pass",
+      "type": "planning",
       "status": "done"
     },
     {
@@ -103,7 +109,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Use verified Google Calendar read access to run the first schedule-grounded Organization brief pass, then keep writes approval-gated."
+      "nextAction": "First schedule-grounded Organization brief pass is verified; keep Calendar and Organization V1 moving with calendar writes approval-gated."
     },
     {
       "title": "Connect Google Calendar",
@@ -131,7 +137,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Google Calendar read access is verified; Supabase credential refresh remains the next live blocker."
+      "nextAction": "Google Calendar and the first Organization brief pass are verified; Supabase credential refresh remains the next live blocker."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -163,10 +169,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Refresh Supabase credentials while Lara uses verified Calendar read access for the first Organization workflow."
+      "nextAction": "Refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
     }
   ],
   "laraActivity": [
+    {
+      "title": "First Organization brief pass verified",
+      "status": "done",
+      "summary": "Ran the Organization brief builder with verified Google Calendar reads for the Sydney day and week windows; no private event details were published."
+    },
     {
       "title": "Google Calendar read access verified",
       "status": "done",
