@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T18:35:00Z",
+  "generatedAt": "2026-08-27T22:01:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -14,56 +14,20 @@
   "today": [
     {
       "time": "Done",
-      "title": "Google Calendar read access verified",
+      "title": "Friday daily brief",
+      "type": "planning",
+      "status": "done"
+    },
+    {
+      "time": "Done",
+      "title": "Google Calendar read access re-verified",
       "type": "integration",
       "status": "done"
     },
     {
       "time": "Done",
-      "title": "Schedule-grounded Organization brief pass",
+      "title": "Schedule-grounded Organization workflow verified",
       "type": "planning",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Connect Google Calendar",
-      "type": "integration",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Mission Control published",
-      "type": "deployment",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Launch scope defined",
-      "type": "planning",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Launch task sequence drafted",
-      "type": "planning",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Daily brief and top three priorities",
-      "type": "planning",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Finish launch plan review",
-      "type": "planning",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Confirm WhatsApp audio understanding",
-      "type": "systems",
       "status": "done"
     },
     {
@@ -73,22 +37,22 @@
       "status": "blocked"
     },
     {
-      "time": "Thu 1:30 PM",
-      "title": "Mission Control build block",
+      "time": "Fri morning",
+      "title": "Review Mission Control and top three",
+      "type": "planning",
+      "status": "active"
+    },
+    {
+      "time": "Fri work block",
+      "title": "Use Calendar/Organization brief to guide the day",
+      "type": "planning",
+      "status": "next"
+    },
+    {
+      "time": "Fri work block",
+      "title": "Refresh Supabase credentials if the live URI is ready",
       "type": "systems",
-      "status": "elapsed"
-    },
-    {
-      "time": "Thu 3:30 PM",
-      "title": "Music or content focus block",
-      "type": "creative",
-      "status": "elapsed"
-    },
-    {
-      "time": "Thu 5:00 PM",
-      "title": "Email/admin and tomorrow reset",
-      "type": "admin",
-      "status": "elapsed"
+      "status": "blocked"
     },
     {
       "time": "Fri 5 PM",
@@ -97,10 +61,10 @@
       "status": "scheduled"
     },
     {
-      "time": "Prepared",
-      "title": "Friday daily brief",
-      "type": "planning",
-      "status": "done"
+      "time": "Fri evening",
+      "title": "Carry forward unfinished blockers and prepare Saturday",
+      "type": "admin",
+      "status": "scheduled"
     }
   ],
   "priorities": [
@@ -173,6 +137,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Friday Mission Control rollover published",
+      "status": "done",
+      "summary": "Refreshed the public-safe Friday dashboard after re-verifying Mission Control, Google Calendar reads, the Organization brief builder, the Supabase blocker, WhatsApp configuration, and the scheduled Room 22 reminder."
+    },
     {
       "title": "First Organization brief pass verified",
       "status": "done",
