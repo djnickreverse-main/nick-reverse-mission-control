@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T09:31:00Z",
+  "generatedAt": "2026-08-27T11:36:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -83,6 +83,12 @@
       "title": "Contact Chris73 about Room 22 guest list",
       "type": "reminder",
       "status": "scheduled"
+    },
+    {
+      "time": "Prepared",
+      "title": "Friday daily brief",
+      "type": "planning",
+      "status": "done"
     }
   ],
   "priorities": [
@@ -155,6 +161,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Friday daily brief prepared",
+      "status": "done",
+      "summary": "Prepared tomorrow around Google Calendar approval, Supabase credential refresh, the specialist-agent build sequence, and the Room 22 guest-list reminder."
+    },
     {
       "title": "Specialist agent roadmap captured",
       "status": "done",
