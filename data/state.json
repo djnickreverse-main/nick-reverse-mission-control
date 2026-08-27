@@ -1,17 +1,23 @@
 {
-  "generatedAt": "2026-08-27T03:35:00Z",
+  "generatedAt": "2026-08-27T04:47:13Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Restore database connection",
-    "status": "blocked",
-    "nextAction": "WhatsApp audio understanding and the launch-plan review are complete; next action is refresh the Supabase database URI, then Lara will re-run npm run db:verify.",
+    "title": "Connect Google Calendar",
+    "status": "needs_approval",
+    "nextAction": "Install/connect the Google Calendar plugin so Lara can read schedule context, due dates, reminders, and daily priorities.",
     "priority": "high"
   },
   "today": [
+    {
+      "time": "Next",
+      "title": "Connect Google Calendar",
+      "type": "integration",
+      "status": "needs_approval"
+    },
     {
       "time": "Done",
       "title": "Mission Control published",
@@ -81,6 +87,20 @@
   ],
   "priorities": [
     {
+      "title": "Build specialist agents behind Lara",
+      "priority": "high",
+      "status": "planned",
+      "ownerLabel": "Lara",
+      "nextAction": "Start with Calendar and Organization agents, then Email, Social Media Intelligence, Brand Ambassador, and Music."
+    },
+    {
+      "title": "Connect Google Calendar",
+      "priority": "high",
+      "status": "needs_approval",
+      "ownerLabel": "Nick + Lara",
+      "nextAction": "Nick installs/connects Google Calendar; Lara then verifies access and builds the day-by-day schedule workflow."
+    },
+    {
       "title": "Finish the Nick Reverse OS launch plan",
       "priority": "urgent",
       "status": "done",
@@ -130,11 +150,16 @@
       "area": "business",
       "priority": "urgent",
       "status": "active",
-      "objective": "Create a working command center for Nick's music career and business.",
-      "nextAction": "Refresh database credentials, then re-run Supabase verification."
+      "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
+      "nextAction": "Connect Google Calendar, then build the first Organization workflow around schedule, tasks, due dates, and reminders."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Specialist agent roadmap captured",
+      "status": "done",
+      "summary": "Captured Nick's vision: Lara remains the assistant interface while Calendar, Organization, Email, Social Media Intelligence, Brand Ambassador, and Music agents support her behind the scenes."
+    },
     {
       "title": "Launch plan review completed",
       "status": "done",
@@ -219,11 +244,6 @@
       "title": "Highest priority updated",
       "status": "done",
       "summary": "Set Test my live Mission Control as the current focus."
-    },
-    {
-      "title": "Mission Control published",
-      "status": "done",
-      "summary": "Dashboard is live on GitHub Pages over HTTPS."
     }
   ]
 }
