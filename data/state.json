@@ -1,22 +1,28 @@
 {
-  "generatedAt": "2026-08-27T11:36:00Z",
+  "generatedAt": "2026-08-27T18:06:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Connect Google Calendar",
-    "status": "needs_approval",
-    "nextAction": "Install/connect the Google Calendar plugin so Lara can read schedule context, due dates, reminders, and daily priorities.",
+    "title": "Refresh database credentials",
+    "status": "blocked",
+    "nextAction": "Refresh the Supabase database URI from the live project, then Lara will re-run npm run db:verify.",
     "priority": "high"
   },
   "today": [
     {
-      "time": "Next",
+      "time": "Done",
+      "title": "Google Calendar read access verified",
+      "type": "integration",
+      "status": "done"
+    },
+    {
+      "time": "Done",
       "title": "Connect Google Calendar",
       "type": "integration",
-      "status": "needs_approval"
+      "status": "done"
     },
     {
       "time": "Done",
@@ -95,16 +101,16 @@
     {
       "title": "Build specialist agents behind Lara",
       "priority": "high",
-      "status": "planned",
+      "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Start with Calendar and Organization agents, then Email, Social Media Intelligence, Brand Ambassador, and Music."
+      "nextAction": "Use verified Google Calendar read access to run the first schedule-grounded Organization brief pass, then keep writes approval-gated."
     },
     {
       "title": "Connect Google Calendar",
       "priority": "high",
-      "status": "needs_approval",
+      "status": "done",
       "ownerLabel": "Nick + Lara",
-      "nextAction": "Nick installs/connects Google Calendar; Lara then verifies access and builds the day-by-day schedule workflow."
+      "nextAction": "Read access verified for the connected Google Calendar account; private event details stay out of Mission Control."
     },
     {
       "title": "Finish the Nick Reverse OS launch plan",
@@ -125,7 +131,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Supabase credential refresh is the next live blocker; calendar, email approvals, and n8n stay staged for after launch."
+      "nextAction": "Google Calendar read access is verified; Supabase credential refresh remains the next live blocker."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -157,10 +163,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Connect Google Calendar, then build the first Organization workflow around schedule, tasks, due dates, and reminders."
+      "nextAction": "Refresh Supabase credentials while Lara uses verified Calendar read access for the first Organization workflow."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Google Calendar read access verified",
+      "status": "done",
+      "summary": "Verified the connected Google Calendar account, listed calendars, read today and next-seven-day event windows, and confirmed the Organization brief builder can merge calendar-shaped events without publishing private details."
+    },
     {
       "title": "Friday daily brief prepared",
       "status": "done",
