@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T04:47:13Z",
+  "generatedAt": "2026-08-27T09:31:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -64,19 +64,19 @@
       "time": "Thu 1:30 PM",
       "title": "Mission Control build block",
       "type": "systems",
-      "status": "next"
+      "status": "elapsed"
     },
     {
       "time": "Thu 3:30 PM",
       "title": "Music or content focus block",
       "type": "creative",
-      "status": "next"
+      "status": "elapsed"
     },
     {
       "time": "Thu 5:00 PM",
       "title": "Email/admin and tomorrow reset",
       "type": "admin",
-      "status": "next"
+      "status": "elapsed"
     },
     {
       "time": "Fri 5 PM",
@@ -227,8 +227,8 @@
     },
     {
       "title": "Mission Control live state refreshed",
-      "status": "active",
-      "summary": "Dashboard now points to the live WhatsApp-to-dashboard test as the next proof step."
+      "status": "done",
+      "summary": "Dashboard now reflects the completed WhatsApp proof and the current Google Calendar approval blocker."
     },
     {
       "title": "Launch plan priority saved",
