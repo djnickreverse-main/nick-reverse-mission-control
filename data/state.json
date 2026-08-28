@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T22:01:00Z",
+  "generatedAt": "2026-08-28T03:35:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -230,7 +230,7 @@
     {
       "title": "Mission Control live state refreshed",
       "status": "done",
-      "summary": "Dashboard now reflects the completed WhatsApp proof and the current Google Calendar approval blocker."
+      "summary": "Dashboard now reflects the completed WhatsApp proof, verified Google Calendar read access, and the current Supabase credential blocker."
     },
     {
       "title": "Launch plan priority saved",
