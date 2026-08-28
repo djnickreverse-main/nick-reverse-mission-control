@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T03:35:00Z",
+  "generatedAt": "2026-08-28T08:06:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -55,10 +55,10 @@
       "status": "blocked"
     },
     {
-      "time": "Fri 5 PM",
+      "time": "Now",
       "title": "Contact Chris73 about Room 22 guest list",
       "type": "reminder",
-      "status": "scheduled"
+      "status": "active"
     },
     {
       "time": "Fri evening",
@@ -119,10 +119,10 @@
     },
     {
       "title": "Contact Chris73 about Room 22 guest list",
-      "priority": "medium",
-      "status": "scheduled",
+      "priority": "high",
+      "status": "active",
       "ownerLabel": "Nick",
-      "nextAction": "Reminder scheduled for Friday around 5 PM to organise Saturday's Room 22 guest list."
+      "nextAction": "The 5 PM reminder job failed during a temporary Codex usage-limit window; contact Chris73 now to organise Saturday's Room 22 guest list."
     }
   ],
   "approvals": [],
@@ -137,6 +137,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Room 22 reminder failure caught",
+      "status": "attention",
+      "summary": "The Friday 5 PM reminder job for Chris73 failed during a temporary Codex usage-limit window; Mission Control now shows the guest-list follow-up as active."
+    },
     {
       "title": "Friday Mission Control rollover published",
       "status": "done",
