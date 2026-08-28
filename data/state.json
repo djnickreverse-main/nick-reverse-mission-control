@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T08:06:00Z",
+  "generatedAt": "2026-08-28T13:31:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -61,10 +61,22 @@
       "status": "active"
     },
     {
-      "time": "Fri evening",
+      "time": "Done",
       "title": "Carry forward unfinished blockers and prepare Saturday",
       "type": "admin",
-      "status": "scheduled"
+      "status": "done"
+    },
+    {
+      "time": "Sat morning",
+      "title": "Confirm Room 22 guest-list follow-up",
+      "type": "reminder",
+      "status": "active"
+    },
+    {
+      "time": "Sat work block",
+      "title": "Refresh Supabase credentials if live URI is ready",
+      "type": "systems",
+      "status": "blocked"
     }
   ],
   "priorities": [
@@ -137,6 +149,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Saturday daily brief prepared",
+      "status": "done",
+      "summary": "Carried Friday's unresolved Room 22 follow-up and Supabase credential blocker into a public-safe Saturday operating brief."
+    },
     {
       "title": "Room 22 reminder failure caught",
       "status": "attention",
