@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T13:31:00Z",
+  "generatedAt": "2026-08-28T14:01:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -37,22 +37,16 @@
       "status": "blocked"
     },
     {
-      "time": "Fri morning",
+      "time": "Sat first check",
       "title": "Review Mission Control and top three",
       "type": "planning",
       "status": "active"
     },
     {
-      "time": "Fri work block",
+      "time": "Sat planning block",
       "title": "Use Calendar/Organization brief to guide the day",
       "type": "planning",
       "status": "next"
-    },
-    {
-      "time": "Fri work block",
-      "title": "Refresh Supabase credentials if the live URI is ready",
-      "type": "systems",
-      "status": "blocked"
     },
     {
       "time": "Now",
@@ -149,6 +143,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Saturday Mission Control rollover checked",
+      "status": "done",
+      "summary": "Removed stale Friday planning labels after Sydney crossed into Saturday while keeping the Room 22 follow-up and Supabase credential blocker visible."
+    },
     {
       "title": "Saturday daily brief prepared",
       "status": "done",
