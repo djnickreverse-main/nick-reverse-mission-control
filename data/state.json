@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-29T04:35:00Z",
+  "generatedAt": "2026-08-29T14:06:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Check private call reminder",
+    "title": "Sunday operating reset",
     "status": "attention",
-    "nextAction": "The 2:00 PM Sydney private call reminder window has passed; check whether it is handled, then confirm the Room 22 guest-list follow-up.",
-    "priority": "urgent"
+    "nextAction": "Sydney has crossed into Sunday; carry forward unresolved Saturday admin, confirm the Room 22 follow-up, and keep Supabase credentials as the live systems blocker.",
+    "priority": "high"
   },
   "today": [
     {
       "time": "Done",
-      "title": "Friday daily brief",
+      "title": "Saturday daily brief",
       "type": "planning",
       "status": "done"
     },
@@ -37,20 +37,20 @@
       "status": "blocked"
     },
     {
-      "time": "Sat first check",
-      "title": "Review Mission Control and top three",
+      "time": "Sun first check",
+      "title": "Review Mission Control and unresolved admin",
       "type": "planning",
       "status": "active"
     },
     {
-      "time": "Sat planning block",
+      "time": "Sun planning block",
       "title": "Use Calendar/Organization brief to guide the day",
       "type": "planning",
       "status": "next"
     },
     {
-      "time": "Now",
-      "title": "Contact Chris73 about Room 22 guest list",
+      "time": "Carry forward",
+      "title": "Confirm Room 22 guest-list follow-up",
       "type": "reminder",
       "status": "active"
     },
@@ -61,22 +61,16 @@
       "status": "done"
     },
     {
-      "time": "Sat morning",
-      "title": "Confirm Room 22 guest-list follow-up",
+      "time": "Sunday check",
+      "title": "Confirm whether Saturday private-call reminder was handled",
       "type": "reminder",
       "status": "active"
     },
     {
-      "time": "Sat work block",
+      "time": "Sun work block",
       "title": "Refresh Supabase credentials if live URI is ready",
       "type": "systems",
       "status": "blocked"
-    },
-    {
-      "time": "Past 2:00 PM",
-      "title": "Private call reminder",
-      "type": "reminder",
-      "status": "attention"
     }
   ],
   "priorities": [
@@ -134,7 +128,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Nick",
-      "nextAction": "The 5 PM reminder job failed during a temporary Codex usage-limit window; contact Chris73 now to organise Saturday's Room 22 guest list."
+      "nextAction": "Confirm whether Saturday's Room 22 guest-list follow-up is handled; if not, contact Chris73 before moving to lower-priority work."
     }
   ],
   "approvals": [],
@@ -149,6 +143,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Sunday Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Carried unresolved Saturday admin and the Supabase credential blocker into a public-safe Sunday operating view."
+    },
     {
       "title": "2 PM reminder window reached",
       "status": "attention",
