@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-29T03:41:59Z",
+  "generatedAt": "2026-08-29T04:35:00Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Refresh database credentials",
-    "status": "blocked",
-    "nextAction": "Refresh the Supabase database URI from the live project, then Lara will re-run npm run db:verify.",
-    "priority": "high"
+    "title": "Check private call reminder",
+    "status": "attention",
+    "nextAction": "The 2:00 PM Sydney private call reminder window has passed; check whether it is handled, then confirm the Room 22 guest-list follow-up.",
+    "priority": "urgent"
   },
   "today": [
     {
@@ -73,10 +73,10 @@
       "status": "blocked"
     },
     {
-      "time": "2:00 PM",
+      "time": "Past 2:00 PM",
       "title": "Private call reminder",
       "type": "reminder",
-      "status": "scheduled"
+      "status": "attention"
     }
   ],
   "priorities": [
@@ -149,6 +149,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "2 PM reminder window reached",
+      "status": "attention",
+      "summary": "Marked the public-safe private call reminder as past its 2:00 PM Sydney window and kept the Room 22 follow-up visible."
+    },
     {
       "title": "2 PM WhatsApp reminder scheduled",
       "status": "done",
