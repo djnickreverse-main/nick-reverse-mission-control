@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T14:06:00Z",
+  "generatedAt": "2026-08-30T05:55:09.530Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -8,10 +8,16 @@
   "focus": {
     "title": "Sunday operating reset",
     "status": "attention",
-    "nextAction": "Sydney has crossed into Sunday; carry forward unresolved Saturday admin, confirm the Room 22 follow-up, and keep Supabase credentials as the live systems blocker.",
+    "nextAction": "4:00 PM Sydney call reminder is scheduled; keep Room 22 follow-up and Supabase credentials visible as the main unresolved items.",
     "priority": "high"
   },
   "today": [
+    {
+      "time": "4:00 PM",
+      "title": "4:00 PM call reminder",
+      "type": "reminder",
+      "status": "scheduled"
+    },
     {
       "time": "Done",
       "title": "Saturday daily brief",
@@ -143,6 +149,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "4 PM WhatsApp reminder scheduled",
+      "status": "done",
+      "summary": "Received Nick's WhatsApp voice note and scheduled a one-shot 4:00 PM Sydney call reminder without publishing private contact details."
+    },
     {
       "title": "Sunday Mission Control rollover prepared",
       "status": "done",
