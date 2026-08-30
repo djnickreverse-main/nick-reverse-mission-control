@@ -1,76 +1,52 @@
 {
-  "generatedAt": "2026-08-30T14:31:00.000Z",
+  "generatedAt": "2026-08-30T16:05:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Sunday evening operating check",
+    "title": "Monday operating rollover",
     "status": "attention",
-    "nextAction": "Room 22 follow-up and Supabase credential refresh remain the main unresolved items after the Sunday planning checks.",
+    "nextAction": "Start Monday by confirming the Room 22 follow-up status, then refresh Supabase credentials when the live database URI is ready.",
     "priority": "high"
   },
   "today": [
     {
-      "time": "4:00 PM",
-      "title": "4:00 PM call reminder delivered",
-      "type": "reminder",
-      "status": "done"
-    },
-    {
       "time": "Done",
-      "title": "Saturday daily brief",
+      "title": "Sunday checks carried forward",
       "type": "planning",
       "status": "done"
     },
     {
-      "time": "Done",
-      "title": "Google Calendar read access re-verified",
-      "type": "integration",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Schedule-grounded Organization workflow verified",
-      "type": "planning",
-      "status": "done"
-    },
-    {
-      "time": "Next",
-      "title": "Refresh database credentials",
-      "type": "systems",
-      "status": "blocked"
-    },
-    {
-      "time": "Done",
-      "title": "Sunday Mission Control check",
-      "type": "planning",
-      "status": "done"
-    },
-    {
-      "time": "Done",
-      "title": "Sunday Calendar/Organization planning check",
-      "type": "planning",
-      "status": "done"
-    },
-    {
-      "time": "Carry forward",
+      "time": "First",
       "title": "Confirm Room 22 guest-list follow-up",
       "type": "reminder",
       "status": "active"
     },
     {
-      "time": "Done",
-      "title": "Carry forward unfinished blockers and prepare Saturday",
-      "type": "admin",
-      "status": "done"
-    },
-    {
-      "time": "Sun work block",
+      "time": "Next",
       "title": "Refresh Supabase credentials if live URI is ready",
       "type": "systems",
       "status": "blocked"
+    },
+    {
+      "time": "Work block",
+      "title": "Keep Organization V1 read-only",
+      "type": "planning",
+      "status": "active"
+    },
+    {
+      "time": "Verify",
+      "title": "Re-run Mission Control checks after any state change",
+      "type": "systems",
+      "status": "active"
+    },
+    {
+      "time": "Later",
+      "title": "Draft Monday carry-forward notes",
+      "type": "admin",
+      "status": "planned"
     }
   ],
   "priorities": [
@@ -143,6 +119,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Monday Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Monday while keeping Room 22 and Supabase as the unresolved items."
+    },
     {
       "title": "Sunday active list cleaned up",
       "status": "done",
