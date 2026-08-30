@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T11:01:00.000Z",
+  "generatedAt": "2026-08-30T14:31:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -65,12 +65,6 @@
       "title": "Carry forward unfinished blockers and prepare Saturday",
       "type": "admin",
       "status": "done"
-    },
-    {
-      "time": "Carry forward",
-      "title": "Confirm whether Saturday private-call reminder was handled",
-      "type": "reminder",
-      "status": "active"
     },
     {
       "time": "Sun work block",
@@ -149,6 +143,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Sunday active list cleaned up",
+      "status": "done",
+      "summary": "Removed a stale public-safe private-call carry-forward item so Mission Control points only to Room 22 and Supabase as unresolved."
+    },
     {
       "title": "Sunday evening Mission Control cleanup",
       "status": "done",
