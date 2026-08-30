@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-30T06:06:00.000Z",
+  "generatedAt": "2026-08-30T11:01:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Sunday operating reset",
+    "title": "Sunday evening operating check",
     "status": "attention",
-    "nextAction": "4:00 PM Sydney call reminder has run; confirm Room 22 follow-up and refresh Supabase credentials as the main unresolved items.",
+    "nextAction": "Room 22 follow-up and Supabase credential refresh remain the main unresolved items after the Sunday planning checks.",
     "priority": "high"
   },
   "today": [
@@ -43,16 +43,16 @@
       "status": "blocked"
     },
     {
-      "time": "Sun first check",
-      "title": "Review Mission Control and unresolved admin",
+      "time": "Done",
+      "title": "Sunday Mission Control check",
       "type": "planning",
-      "status": "active"
+      "status": "done"
     },
     {
-      "time": "Sun planning block",
-      "title": "Use Calendar/Organization brief to guide the day",
+      "time": "Done",
+      "title": "Sunday Calendar/Organization planning check",
       "type": "planning",
-      "status": "next"
+      "status": "done"
     },
     {
       "time": "Carry forward",
@@ -67,7 +67,7 @@
       "status": "done"
     },
     {
-      "time": "Sunday check",
+      "time": "Carry forward",
       "title": "Confirm whether Saturday private-call reminder was handled",
       "type": "reminder",
       "status": "active"
@@ -149,6 +149,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Sunday evening Mission Control cleanup",
+      "status": "done",
+      "summary": "Refreshed public-safe timeline labels after the Sunday planning checks while keeping Room 22 and Supabase blockers visible."
+    },
     {
       "title": "4 PM WhatsApp reminder delivered",
       "status": "done",
