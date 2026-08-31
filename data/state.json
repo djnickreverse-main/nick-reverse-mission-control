@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T07:01:00.000Z",
+  "generatedAt": "2026-08-31T11:25:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -41,6 +41,12 @@
       "title": "Re-run Mission Control checks after any state change",
       "type": "systems",
       "status": "active"
+    },
+    {
+      "time": "Tue 09:25",
+      "title": "Call Oswaldo reminder",
+      "type": "reminder",
+      "status": "scheduled"
     },
     {
       "time": "Done",
@@ -119,6 +125,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "9:25 call reminder scheduled",
+      "status": "done",
+      "summary": "Received Nick's WhatsApp voice note and scheduled a one-shot reminder for Tuesday 9:25 AM Sydney time."
+    },
     {
       "title": "Monday carry-forward notes verified",
       "status": "done",
