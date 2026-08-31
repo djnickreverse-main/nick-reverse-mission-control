@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T16:05:00.000Z",
+  "generatedAt": "2026-08-31T07:01:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -43,10 +43,10 @@
       "status": "active"
     },
     {
-      "time": "Later",
+      "time": "Done",
       "title": "Draft Monday carry-forward notes",
       "type": "admin",
-      "status": "planned"
+      "status": "done"
     }
   ],
   "priorities": [
@@ -119,6 +119,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Monday carry-forward notes verified",
+      "status": "done",
+      "summary": "Confirmed the Monday daily brief exists and marked the public-safe carry-forward note task complete while keeping Room 22 and Supabase visible."
+    },
     {
       "title": "Monday Mission Control rollover prepared",
       "status": "done",
