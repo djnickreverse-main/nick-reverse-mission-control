@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T17:31:00.000Z",
+  "generatedAt": "2026-08-31T23:31:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
@@ -8,7 +8,7 @@
   "focus": {
     "title": "Tuesday operating rollover",
     "status": "attention",
-    "nextAction": "Start Tuesday by confirming the Room 22 follow-up status; the Oswaldo call reminder is scheduled for 09:25 Sydney time, then Supabase credentials can be refreshed when the live URI is ready.",
+    "nextAction": "Start Tuesday by confirming the Room 22 follow-up status; the 09:25 Sydney call reminder has run, then Supabase credentials can be refreshed when the live URI is ready.",
     "priority": "high"
   },
   "today": [
@@ -25,10 +25,10 @@
       "status": "active"
     },
     {
-      "time": "Tue 09:25",
+      "time": "Done",
       "title": "Call Oswaldo reminder",
       "type": "reminder",
-      "status": "scheduled"
+      "status": "done"
     },
     {
       "time": "Next",
@@ -125,6 +125,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "9:25 call reminder delivered",
+      "status": "done",
+      "summary": "Verified the one-shot 09:25 Sydney reminder ran successfully and sent Nick the call reminder."
+    },
     {
       "title": "Tuesday Mission Control rollover prepared",
       "status": "done",
