@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-31T23:31:00.000Z",
+  "generatedAt": "2026-09-01T19:31:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Tuesday operating rollover",
+    "title": "Wednesday operating rollover",
     "status": "attention",
-    "nextAction": "Start Tuesday by confirming the Room 22 follow-up status; the 09:25 Sydney call reminder has run, then Supabase credentials can be refreshed when the live URI is ready.",
+    "nextAction": "Start Wednesday by confirming whether the Room 22 follow-up and Oswaldo call are handled; then refresh Supabase credentials when the live URI is ready.",
     "priority": "high"
   },
   "today": [
     {
       "time": "Done",
-      "title": "Monday checks carried forward",
+      "title": "Tuesday checks carried forward",
       "type": "planning",
       "status": "done"
     },
@@ -29,6 +29,12 @@
       "title": "Call Oswaldo reminder",
       "type": "reminder",
       "status": "done"
+    },
+    {
+      "time": "Follow up",
+      "title": "Confirm Oswaldo call outcome",
+      "type": "reminder",
+      "status": "active"
     },
     {
       "time": "Next",
@@ -50,7 +56,7 @@
     },
     {
       "time": "Done",
-      "title": "Prepare Tuesday carry-forward notes",
+      "title": "Prepare Wednesday carry-forward notes",
       "type": "admin",
       "status": "done"
     }
@@ -121,10 +127,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
+      "nextAction": "Confirm the remaining follow-up outcomes, then refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Wednesday Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Wednesday after the Sydney day changed, keeping Room 22, the Oswaldo call outcome, and the Supabase credential blocker visible."
+    },
     {
       "title": "9:25 call reminder delivered",
       "status": "done",
