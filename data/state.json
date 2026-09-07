@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-07T05:31:00.000Z",
+  "generatedAt": "2026-09-07T14:03:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Monday operating rollover",
+    "title": "Tuesday operating rollover",
     "status": "attention",
-    "nextAction": "Start Monday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
+    "nextAction": "Start Tuesday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
     "priority": "high"
   },
   "today": [
     {
       "time": "Done",
-      "title": "Monday stale-state check completed",
+      "title": "Tuesday rollover check completed",
       "type": "planning",
       "status": "done"
     },
@@ -50,7 +50,7 @@
     },
     {
       "time": "Done",
-      "title": "Prepare Monday carry-forward notes",
+      "title": "Prepare Tuesday carry-forward notes",
       "type": "admin",
       "status": "done"
     }
@@ -125,6 +125,11 @@
     }
   ],
   "laraActivity": [
+    {
+      "title": "Tuesday Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Tuesday Sydney time, keeping Room 22, the Oswaldo call outcome, and the Supabase credential blocker visible."
+    },
     {
       "title": "Monday Mission Control rollover prepared",
       "status": "done",
