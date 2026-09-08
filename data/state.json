@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-07T14:03:00.000Z",
+  "generatedAt": "2026-09-08T20:38:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Tuesday operating rollover",
+    "title": "Wednesday operating rollover",
     "status": "attention",
-    "nextAction": "Start Tuesday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
+    "nextAction": "Start Wednesday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
     "priority": "high"
   },
   "today": [
     {
       "time": "Done",
-      "title": "Tuesday rollover check completed",
+      "title": "Wednesday rollover check completed",
       "type": "planning",
       "status": "done"
     },
@@ -50,7 +50,7 @@
     },
     {
       "time": "Done",
-      "title": "Prepare Tuesday carry-forward notes",
+      "title": "Carry Tuesday unresolved items into Wednesday",
       "type": "admin",
       "status": "done"
     }
@@ -121,10 +121,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Confirm the remaining follow-up outcomes, then refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
+      "nextAction": "Start Wednesday by confirming the remaining follow-up outcomes, then refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Wednesday Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Wednesday Sydney time, keeping Room 22, the Oswaldo call outcome, and the Supabase credential blocker visible."
+    },
     {
       "title": "Tuesday Mission Control rollover prepared",
       "status": "done",
