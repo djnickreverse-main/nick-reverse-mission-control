@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-12T14:03:49.000Z",
+  "generatedAt": "2026-09-13T14:31:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Sunday operating handoff",
+    "title": "Monday operating handoff",
     "status": "attention",
-    "nextAction": "Start Sunday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
+    "nextAction": "Start Monday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
     "priority": "high"
   },
   "today": [
     {
       "time": "Done",
-      "title": "Sunday handoff prepared",
+      "title": "Monday handoff prepared",
       "type": "planning",
       "status": "done"
     },
@@ -28,6 +28,12 @@
       "time": "Follow up",
       "title": "Confirm Oswaldo call outcome",
       "type": "reminder",
+      "status": "active"
+    },
+    {
+      "time": "Watch",
+      "title": "Treat 11:11 as a content/music prompt unless clarified",
+      "type": "planning",
       "status": "active"
     },
     {
@@ -47,12 +53,6 @@
       "title": "Re-run Mission Control checks after any state change",
       "type": "systems",
       "status": "active"
-    },
-    {
-      "time": "Done",
-      "title": "Carry Saturday unresolved items into Sunday",
-      "type": "admin",
-      "status": "done"
     }
   ],
   "priorities": [
@@ -121,10 +121,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Start Sunday by confirming the remaining follow-up outcomes, then refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
+      "nextAction": "Start Monday by confirming the remaining follow-up outcomes, then refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Monday Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Monday Sydney time, keeping Room 22, the Oswaldo call outcome, the 11:11 watch item, and the Supabase credential blocker visible."
+    },
     {
       "title": "Sunday Mission Control rollover prepared",
       "status": "done",
@@ -209,141 +214,6 @@
       "title": "Sunday Mission Control rollover prepared",
       "status": "done",
       "summary": "Carried unresolved Saturday admin and the Supabase credential blocker into a public-safe Sunday operating view."
-    },
-    {
-      "title": "2 PM reminder window reached",
-      "status": "attention",
-      "summary": "Marked the public-safe private call reminder as past its 2:00 PM Sydney window and kept the Room 22 follow-up visible."
-    },
-    {
-      "title": "2 PM WhatsApp reminder scheduled",
-      "status": "done",
-      "summary": "Received Nick's WhatsApp voice note, confirmed the requested reminder, and scheduled a one-shot WhatsApp reminder for 2:00 PM Sydney time without publishing private contact details."
-    },
-    {
-      "title": "Saturday Mission Control rollover checked",
-      "status": "done",
-      "summary": "Removed stale Friday planning labels after Sydney crossed into Saturday while keeping the Room 22 follow-up and Supabase credential blocker visible."
-    },
-    {
-      "title": "Saturday daily brief prepared",
-      "status": "done",
-      "summary": "Carried Friday's unresolved Room 22 follow-up and Supabase credential blocker into a public-safe Saturday operating brief."
-    },
-    {
-      "title": "Room 22 reminder failure caught",
-      "status": "attention",
-      "summary": "The Friday 5 PM reminder job for Chris73 failed during a temporary Codex usage-limit window; Mission Control now shows the guest-list follow-up as active."
-    },
-    {
-      "title": "Friday Mission Control rollover published",
-      "status": "done",
-      "summary": "Refreshed the public-safe Friday dashboard after re-verifying Mission Control, Google Calendar reads, the Organization brief builder, the Supabase blocker, WhatsApp configuration, and the scheduled Room 22 reminder."
-    },
-    {
-      "title": "First Organization brief pass verified",
-      "status": "done",
-      "summary": "Ran the Organization brief builder with verified Google Calendar reads for the Sydney day and week windows; no private event details were published."
-    },
-    {
-      "title": "Google Calendar read access verified",
-      "status": "done",
-      "summary": "Verified the connected Google Calendar account, listed calendars, read today and next-seven-day event windows, and confirmed the Organization brief builder can merge calendar-shaped events without publishing private details."
-    },
-    {
-      "title": "Friday daily brief prepared",
-      "status": "done",
-      "summary": "Prepared tomorrow around Google Calendar approval, Supabase credential refresh, the specialist-agent build sequence, and the Room 22 guest-list reminder."
-    },
-    {
-      "title": "Specialist agent roadmap captured",
-      "status": "done",
-      "summary": "Captured Nick's vision: Lara remains the assistant interface while Calendar, Organization, Email, Social Media Intelligence, Brand Ambassador, and Music agents support her behind the scenes."
-    },
-    {
-      "title": "Launch plan review completed",
-      "status": "done",
-      "summary": "Reviewed the launch plan, readiness checklist, first-launch brief, and WhatsApp proof status; Mission Control now points to Supabase credentials as the next blocker."
-    },
-    {
-      "title": "WhatsApp audio understanding confirmed",
-      "status": "done",
-      "summary": "Received Nick's WhatsApp voice note, understood the message, and used it to confirm Lara can act on inbound audio."
-    },
-    {
-      "title": "Midday launch status refreshed",
-      "status": "done",
-      "summary": "Updated Mission Control after the Thursday morning launch-proof window passed; Nick then sent inbound WhatsApp audio, which was understood and published as the live proof."
-    },
-    {
-      "title": "Thursday daily brief drafted",
-      "status": "done",
-      "summary": "Prepared the Thursday brief around launch plan review, WhatsApp proof, Supabase credential refresh, and music/admin focus blocks."
-    },
-    {
-      "title": "Thursday day calendar organised",
-      "status": "done",
-      "summary": "Structured tomorrow around Mission Control launch progress, the live WhatsApp proof, the Supabase blocker, and a protected creative/admin reset."
-    },
-    {
-      "title": "First launch brief prepared",
-      "status": "done",
-      "summary": "Prepared Nick's concise first-launch brief: what is ready, what is blocked, and the exact WhatsApp task needed to prove Mission Control live."
-    },
-    {
-      "title": "Launch operations runbook prepared",
-      "status": "done",
-      "summary": "Prepared the safe step-by-step runbook for turning a WhatsApp task into a verified public Mission Control update without leaking private data."
-    },
-    {
-      "title": "Launch readiness checklist prepared",
-      "status": "done",
-      "summary": "Prepared the go/no-go checklist for first Mission Control launch readiness, including public reachability, state safety, WhatsApp proof, and blocker visibility."
-    },
-    {
-      "title": "Supabase credential refresh checklist prepared",
-      "status": "done",
-      "summary": "Created the exact non-secret checklist needed to refresh database credentials and clear the Supabase blocker safely."
-    },
-    {
-      "title": "WhatsApp dashboard test checklist prepared",
-      "status": "done",
-      "summary": "Prepared the exact safe acceptance checklist for the first live WhatsApp-to-Mission-Control proof."
-    },
-    {
-      "title": "Reminder scheduled",
-      "status": "done",
-      "summary": "Friday 5 PM reminder set for Nick to contact Chris73 about Saturday's Room 22 guest list."
-    },
-    {
-      "title": "Launch scope defined",
-      "status": "done",
-      "summary": "Created the first launch plan: what ships now, what waits, and success criteria."
-    },
-    {
-      "title": "Launch task sequence drafted",
-      "status": "done",
-      "summary": "Converted the plan into owner/status/next-action tasks with blockers visible."
-    },
-    {
-      "title": "Mission Control live state refreshed",
-      "status": "done",
-      "summary": "Dashboard now reflects the completed WhatsApp proof, verified Google Calendar read access, and the current Supabase credential blocker."
-    },
-    {
-      "title": "Launch plan priority saved",
-      "status": "done",
-      "summary": "Set finishing the Nick Reverse OS launch plan as the current focus."
-    },
-    {
-      "title": "Next three actions saved",
-      "status": "done",
-      "summary": "Defined scope, sequence the task list, and verify launch blockers."
-    },
-    {
-      "title": "Highest priority updated",
-      "status": "done",
-      "summary": "Set Test my live Mission Control as the current focus."
     }
   ]
 }
