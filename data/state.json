@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-13T14:31:00.000Z",
+  "generatedAt": "2026-09-14T18:36:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Monday operating handoff",
+    "title": "Tuesday operating handoff",
     "status": "attention",
-    "nextAction": "Start Monday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
+    "nextAction": "Start Tuesday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
     "priority": "high"
   },
   "today": [
     {
       "time": "Done",
-      "title": "Monday handoff prepared",
+      "title": "Tuesday handoff prepared",
       "type": "planning",
       "status": "done"
     },
@@ -32,7 +32,7 @@
     },
     {
       "time": "Watch",
-      "title": "Treat 11:11 as a content/music prompt unless clarified",
+      "title": "Check prep context for upcoming calendar watch items",
       "type": "planning",
       "status": "active"
     },
@@ -121,10 +121,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Start Monday by confirming the remaining follow-up outcomes, then refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
+      "nextAction": "Start Tuesday by confirming the remaining follow-up outcomes, then refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Tuesday Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Tuesday Sydney time, keeping Room 22, the Oswaldo call outcome, upcoming calendar watch items, and the Supabase credential blocker visible."
+    },
     {
       "title": "Monday Mission Control rollover prepared",
       "status": "done",
