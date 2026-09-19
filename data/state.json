@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-19T09:01:00.000Z",
+  "generatedAt": "2026-09-19T12:01:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Saturday evening operating handoff",
+    "title": "Saturday night follow-through",
     "status": "attention",
-    "nextAction": "Sutra is on the calendar now; confirm any urgent prep is handled, then carry forward the Room 22, Oswaldo, and Supabase credential checks.",
+    "nextAction": "Sutra's verified calendar window has passed; carry forward the Room 22, Oswaldo, and Supabase credential checks without sending third-party messages.",
     "priority": "high"
   },
   "today": [
     {
-      "time": "Now",
-      "title": "Sutra calendar watch is current",
+      "time": "Wrapped",
+      "title": "Sutra calendar watch has passed",
       "type": "calendar",
-      "status": "active"
+      "status": "done"
     },
     {
       "time": "Done",
@@ -127,10 +127,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Use the Saturday evening handoff to catch the current calendar watch, then confirm the remaining follow-up outcomes and refresh Supabase credentials when the live URI is ready."
+      "nextAction": "Use the Saturday night handoff to confirm the remaining follow-up outcomes and refresh Supabase credentials when the live URI is ready."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Saturday night handoff refreshed",
+      "status": "done",
+      "summary": "Updated the public-safe operating view after the verified Sutra calendar window passed, keeping Room 22, Oswaldo, and Supabase as the active follow-through items."
+    },
     {
       "title": "Saturday Mission Control refresh prepared",
       "status": "done",
