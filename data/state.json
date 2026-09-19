@@ -1,20 +1,26 @@
 {
-  "generatedAt": "2026-09-14T18:36:00.000Z",
+  "generatedAt": "2026-09-19T09:01:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Tuesday operating handoff",
+    "title": "Saturday evening operating handoff",
     "status": "attention",
-    "nextAction": "Start Tuesday by confirming whether the Room 22 follow-up and Oswaldo call outcome are handled; then refresh Supabase credentials when the live URI is ready.",
+    "nextAction": "Sutra is on the calendar now; confirm any urgent prep is handled, then carry forward the Room 22, Oswaldo, and Supabase credential checks.",
     "priority": "high"
   },
   "today": [
     {
+      "time": "Now",
+      "title": "Sutra calendar watch is current",
+      "type": "calendar",
+      "status": "active"
+    },
+    {
       "time": "Done",
-      "title": "Tuesday handoff prepared",
+      "title": "Saturday handoff prepared",
       "type": "planning",
       "status": "done"
     },
@@ -32,7 +38,7 @@
     },
     {
       "time": "Watch",
-      "title": "Check prep context for upcoming calendar watch items",
+      "title": "Check prep context for next calendar watch items",
       "type": "planning",
       "status": "active"
     },
@@ -61,7 +67,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Keep Calendar and Organization V1 moving with calendar writes approval-gated; Supabase credential refresh remains the systems blocker before live database-backed workflows."
+      "nextAction": "Keep Calendar and Organization V1 read-only, with the next verified watch items on 2026-09-21, 2026-09-26, and 2026-09-27 Australia/Sydney."
     },
     {
       "title": "Connect Google Calendar",
@@ -89,7 +95,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Mission Control and Organization checks pass; Supabase credential refresh remains the next live blocker."
+      "nextAction": "Mission Control and Organization checks pass after the Saturday refresh; Supabase credential refresh remains the next live blocker."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -121,10 +127,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Start Tuesday by confirming the remaining follow-up outcomes, then refresh Supabase credentials while Lara keeps Calendar and Organization V1 read-only until calendar writes are approved."
+      "nextAction": "Use the Saturday evening handoff to catch the current calendar watch, then confirm the remaining follow-up outcomes and refresh Supabase credentials when the live URI is ready."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Saturday Mission Control refresh prepared",
+      "status": "done",
+      "summary": "Refreshed the public-safe operating view for Saturday evening Sydney time after verifying the current calendar watch and keeping Room 22, Oswaldo, and Supabase visible."
+    },
     {
       "title": "Tuesday Mission Control rollover prepared",
       "status": "done",
