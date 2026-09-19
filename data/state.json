@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-19T12:01:00.000Z",
+  "generatedAt": "2026-09-19T18:04:22.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Saturday night follow-through",
+    "title": "Sunday early follow-through",
     "status": "attention",
-    "nextAction": "Sutra's verified calendar window has passed; carry forward the Room 22, Oswaldo, and Supabase credential checks without sending third-party messages.",
+    "nextAction": "Sydney has rolled into Sunday; carry forward Room 22, Oswaldo, the Sep 21 11:11 watch item, and the Supabase credential check without sending third-party messages.",
     "priority": "high"
   },
   "today": [
     {
-      "time": "Wrapped",
-      "title": "Sutra calendar watch has passed",
+      "time": "Carried",
+      "title": "Saturday calendar watch is wrapped",
       "type": "calendar",
       "status": "done"
     },
     {
-      "time": "Done",
-      "title": "Saturday handoff prepared",
+      "time": "Now",
+      "title": "Sunday early operating view prepared",
       "type": "planning",
       "status": "done"
     },
@@ -38,7 +38,7 @@
     },
     {
       "time": "Watch",
-      "title": "Check prep context for next calendar watch items",
+      "title": "Check prep context for Sep 21 11:11",
       "type": "planning",
       "status": "active"
     },
@@ -95,7 +95,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Mission Control and Organization checks pass after the Saturday refresh; Supabase credential refresh remains the next live blocker."
+      "nextAction": "Mission Control and Organization checks pass after the Sunday early refresh; Supabase credential refresh remains the next live blocker."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -127,10 +127,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Use the Saturday night handoff to confirm the remaining follow-up outcomes and refresh Supabase credentials when the live URI is ready."
+      "nextAction": "Use the Sunday early handoff to confirm the remaining follow-up outcomes, keep Sep 21 11:11 visible, and refresh Supabase credentials when the live URI is ready."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Sunday early Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Sunday Sydney time, keeping Room 22, the Oswaldo call outcome, the Sep 21 11:11 watch item, and the Supabase credential blocker visible."
+    },
     {
       "title": "Saturday night handoff refreshed",
       "status": "done",
