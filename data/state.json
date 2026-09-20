@@ -1,20 +1,26 @@
 {
-  "generatedAt": "2026-09-20T13:01:00.000Z",
+  "generatedAt": "2026-09-20T13:34:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Monday 11:11 handoff",
+    "title": "Sunday late 11:11 prep",
     "status": "attention",
-    "nextAction": "Sydney has rolled into Monday; clarify the Sep 21 11:11 watch item if Nick is available, then carry Room 22, Oswaldo, and the Supabase credential check without sending third-party messages.",
+    "nextAction": "Sydney is still Sunday night; keep the Sep 21 11:11 watch item prepped for Monday, and carry Room 22, Oswaldo, and the Supabase credential check without sending third-party messages.",
     "priority": "high"
   },
   "today": [
     {
       "time": "Now",
-      "title": "Monday 11:11 watch item is active",
+      "title": "Sunday night handoff is active",
+      "type": "planning",
+      "status": "active"
+    },
+    {
+      "time": "Next",
+      "title": "Keep Sep 21 11:11 watch item ready for Monday",
       "type": "calendar",
       "status": "active"
     },
@@ -55,7 +61,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Keep Calendar and Organization V1 read-only, with Sep 21 11:11 active today and the next verified watch items on 2026-09-26 and 2026-09-27 Australia/Sydney."
+      "nextAction": "Keep Calendar and Organization V1 read-only, with Sep 21 11:11 prepped for Monday and the next verified watch items on 2026-09-26 and 2026-09-27 Australia/Sydney."
     },
     {
       "title": "Connect Google Calendar",
@@ -83,7 +89,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Mission Control is rolling into the Monday 11:11 handoff; Supabase credential refresh remains the next live systems blocker."
+      "nextAction": "Mission Control is corrected to the Sunday late 11:11 prep window; Supabase credential refresh remains the next live systems blocker."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -115,10 +121,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Use the Monday 11:11 handoff to clarify the watch item when useful, keep Room 22 and Oswaldo visible, and refresh Supabase credentials when the live URI is ready."
+      "nextAction": "Use the Sunday late handoff to keep the Sep 21 11:11 watch item ready for Monday, keep Room 22 and Oswaldo visible, and refresh Supabase credentials when the live URI is ready."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Sunday late 11:11 timing correction",
+      "status": "done",
+      "summary": "Corrected the public-safe operating view after verifying Sydney was still Sunday night, keeping the Sep 21 11:11 item as Monday prep while carrying Room 22, Oswaldo, and Supabase forward."
+    },
     {
       "title": "Monday 11:11 Mission Control rollover prepared",
       "status": "done",
