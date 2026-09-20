@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-09-19T18:04:22.000Z",
+  "generatedAt": "2026-09-20T13:01:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Sunday early follow-through",
+    "title": "Monday 11:11 handoff",
     "status": "attention",
-    "nextAction": "Sydney has rolled into Sunday; carry forward Room 22, Oswaldo, the Sep 21 11:11 watch item, and the Supabase credential check without sending third-party messages.",
+    "nextAction": "Sydney has rolled into Monday; clarify the Sep 21 11:11 watch item if Nick is available, then carry Room 22, Oswaldo, and the Supabase credential check without sending third-party messages.",
     "priority": "high"
   },
   "today": [
     {
-      "time": "Carried",
-      "title": "Saturday calendar watch is wrapped",
-      "type": "calendar",
-      "status": "done"
-    },
-    {
       "time": "Now",
-      "title": "Sunday early operating view prepared",
-      "type": "planning",
-      "status": "done"
+      "title": "Monday 11:11 watch item is active",
+      "type": "calendar",
+      "status": "active"
     },
     {
-      "time": "First",
+      "time": "Clarify",
+      "title": "Identify whether 11:11 is release, post, idea, reminder, or private note",
+      "type": "planning",
+      "status": "active"
+    },
+    {
+      "time": "First human check",
       "title": "Confirm Room 22 guest-list follow-up",
       "type": "reminder",
       "status": "active"
@@ -37,26 +37,14 @@
       "status": "active"
     },
     {
-      "time": "Watch",
-      "title": "Check prep context for Sep 21 11:11",
-      "type": "planning",
-      "status": "active"
-    },
-    {
       "time": "Next",
       "title": "Refresh Supabase credentials if live URI is ready",
       "type": "systems",
       "status": "blocked"
     },
     {
-      "time": "Work block",
-      "title": "Keep Calendar and Organization V1 read-only",
-      "type": "planning",
-      "status": "active"
-    },
-    {
       "time": "Verify",
-      "title": "Re-run Mission Control checks after any state change",
+      "title": "Re-run Mission Control checks after any state or credential change",
       "type": "systems",
       "status": "active"
     }
@@ -67,7 +55,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Keep Calendar and Organization V1 read-only, with the next verified watch items on 2026-09-21, 2026-09-26, and 2026-09-27 Australia/Sydney."
+      "nextAction": "Keep Calendar and Organization V1 read-only, with Sep 21 11:11 active today and the next verified watch items on 2026-09-26 and 2026-09-27 Australia/Sydney."
     },
     {
       "title": "Connect Google Calendar",
@@ -95,7 +83,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Mission Control and Organization checks pass after the Sunday early refresh; Supabase credential refresh remains the next live blocker."
+      "nextAction": "Mission Control is rolling into the Monday 11:11 handoff; Supabase credential refresh remains the next live systems blocker."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -127,10 +115,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Use the Sunday early handoff to confirm the remaining follow-up outcomes, keep Sep 21 11:11 visible, and refresh Supabase credentials when the live URI is ready."
+      "nextAction": "Use the Monday 11:11 handoff to clarify the watch item when useful, keep Room 22 and Oswaldo visible, and refresh Supabase credentials when the live URI is ready."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Monday 11:11 Mission Control rollover prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Monday Sydney time, keeping the 11:11 watch item active and carrying Room 22, Oswaldo, and the Supabase credential blocker forward."
+    },
     {
       "title": "Sunday early Mission Control rollover prepared",
       "status": "done",
@@ -235,11 +228,6 @@
       "title": "4 PM WhatsApp reminder delivered",
       "status": "done",
       "summary": "Received Nick's WhatsApp voice note and the one-shot 4:00 PM Sydney call reminder ran successfully without publishing private contact details."
-    },
-    {
-      "title": "Sunday Mission Control rollover prepared",
-      "status": "done",
-      "summary": "Carried unresolved Saturday admin and the Supabase credential blocker into a public-safe Sunday operating view."
     }
   ]
 }
