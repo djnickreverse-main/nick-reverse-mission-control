@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-26T09:34:00.000Z",
+  "generatedAt": "2026-09-26T14:03:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Saturday operating catch-up",
+    "title": "Sunday early operating catch-up",
     "status": "attention",
-    "nextAction": "Mission Control was still carrying the Sep 21 handoff, so treat today as a Saturday catch-up: keep Room 22, Oswaldo, and the Supabase credential refresh visible, and confirm the next verified watch items before publishing any private calendar detail.",
+    "nextAction": "Sydney has rolled into Sunday, so keep the operating view current without adding private calendar detail: carry Room 22, Oswaldo, and the Supabase credential refresh forward, and verify any new watch items before surfacing them.",
     "priority": "high"
   },
   "today": [
     {
       "time": "Now",
-      "title": "Saturday catch-up handoff is active",
+      "title": "Sunday early catch-up handoff is active",
       "type": "planning",
       "status": "active"
     },
@@ -55,7 +55,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Keep Calendar and Organization V1 read-only; Mission Control has been rolled forward from the stale Sep 21 handoff, and the next watch items need fresh verification before surfacing private details."
+      "nextAction": "Keep Calendar and Organization V1 read-only; Mission Control has been rolled into Sunday early catch-up, and the next watch items need fresh verification before surfacing private details."
     },
     {
       "title": "Connect Google Calendar",
@@ -83,7 +83,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Mission Control now reflects a Saturday catch-up; Supabase credential refresh remains the next live systems blocker."
+      "nextAction": "Mission Control now reflects a Sunday early catch-up; Supabase credential refresh remains the next live systems blocker."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -115,10 +115,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Use the Saturday catch-up handoff to carry Room 22, Oswaldo, and the Supabase credential blocker forward while verifying current watch items before publishing calendar-specific details."
+      "nextAction": "Use the Sunday early catch-up handoff to carry Room 22, Oswaldo, and the Supabase credential blocker forward while verifying current watch items before publishing calendar-specific details."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Sunday early Mission Control catch-up prepared",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Sunday Sydney time, keeping Room 22, Oswaldo, current watch-item verification, and the Supabase credential blocker visible."
+    },
     {
       "title": "Saturday Mission Control catch-up prepared",
       "status": "done",
