@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-27T10:01:00.000Z",
+  "generatedAt": "2026-09-27T14:34:00.000Z",
   "source": "Lara",
   "profile": {
     "displayName": "Nick Reverse",
     "timezone": "Australia/Sydney"
   },
   "focus": {
-    "title": "Sunday night to Monday prep",
+    "title": "Monday 11:11 handoff",
     "status": "attention",
-    "nextAction": "Keep Monday prep public-safe: carry Room 22, Oswaldo, and the Supabase credential refresh forward, and clarify the private Monday watch item only if Nick needs a prompt.",
+    "nextAction": "Keep the Monday handoff public-safe: carry Room 22, Oswaldo, and the Supabase credential refresh forward, and clarify the private watch item only if Nick needs a prompt.",
     "priority": "high"
   },
   "today": [
     {
-      "time": "Tonight",
-      "title": "Sunday night to Monday prep is active",
+      "time": "Monday",
+      "title": "Monday 11:11 handoff is active",
       "type": "planning",
       "status": "active"
     },
@@ -55,7 +55,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Keep Calendar and Organization V1 read-only; Mission Control has been rolled into Sunday night to Monday prep, and private watch items stay out of the public dashboard."
+      "nextAction": "Keep Calendar and Organization V1 read-only; Mission Control has been rolled into the Monday handoff, and private watch items stay out of the public dashboard."
     },
     {
       "title": "Connect Google Calendar",
@@ -83,7 +83,7 @@
       "priority": "high",
       "status": "active",
       "ownerLabel": "Lara",
-      "nextAction": "Mission Control now reflects Sunday night to Monday prep; Supabase credential refresh remains the next live systems blocker."
+      "nextAction": "Mission Control now reflects the Monday handoff; Supabase credential refresh remains the next live systems blocker."
     },
     {
       "title": "Connect Lara to live Mission Control",
@@ -115,10 +115,15 @@
       "priority": "urgent",
       "status": "active",
       "objective": "Create a working command center where Nick talks to Lara and Lara coordinates specialist agents behind the scenes.",
-      "nextAction": "Use the Sunday night to Monday prep handoff to carry Room 22, Oswaldo, and the Supabase credential blocker forward while keeping private calendar details off Mission Control."
+      "nextAction": "Use the Monday handoff to carry Room 22, Oswaldo, and the Supabase credential blocker forward while keeping private calendar details off Mission Control."
     }
   ],
   "laraActivity": [
+    {
+      "title": "Monday Mission Control handoff refreshed",
+      "status": "done",
+      "summary": "Rolled the public-safe operating view into Monday Sydney time, carrying Room 22, Oswaldo, and the Supabase credential blocker forward without publishing private calendar detail."
+    },
     {
       "title": "Sunday night Mission Control prep refreshed",
       "status": "done",
